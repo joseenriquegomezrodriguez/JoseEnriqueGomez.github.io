@@ -1,14 +1,13 @@
 title: Jose Enrique Gómez
 author:
   name: joseenriquegomezrodriguez
-  email: your-email@domain.com
-
+# email: jose.enrique.gomez@ upc.edu
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+#description: > 
+#  /rdlab UPC - http://rdlab.cs.upc.edu 
+#  Jordi Girona 1-3, Ed. Omega-009 (08034 Barcelona)
+#  Telf:    +34 93 413 78 20"
 
 # Build settings
 
@@ -57,9 +56,9 @@ minima:
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/joseenriquegomezrodriguez" }
-    - { platform: gitlab,         user_url: "https://gitlab.upc.edu/jose.enrique.gomez" }
-    - { platform: gitlab,         user_url: "https://mygitlab.cs.upc.edu/jose.enrique.gomez" }
+    - { platform: github,         user_url: "https://github.com/joseenriquegomezrodriguez" , user_text: "GitHub" }
+    - { platform: gitlab,         user_url: "https://gitlab.upc.edu/jose.enrique.gomez", user_text: "UPC" }
+    - { platform: gitlab,         user_url: "https://mygitlab.cs.upc.edu/jose.enrique.gomez", user_text: "RDLab" }
   #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
   #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
@@ -71,5 +70,4 @@ minima:
   #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
 
